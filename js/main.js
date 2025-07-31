@@ -1,4 +1,11 @@
- AOS.init({
+const sendMail = document.querySelector('.send-mail');
+
+sendMail.addEventListener('click', function(e) {
+	e.preventDefault
+	// console.log('hi')
+	alert('Thank you for reaching out')
+})
+AOS.init({
  	duration: 800,
  	easing: 'slide'
  });
@@ -185,7 +192,7 @@
 				$('.number').each(function(){
 					var $this = $(this),
 						num = $this.data('number');
-						console.log(num);
+						// console.log(num);
 					$this.animateNumber(
 					  {
 					    number: num,
