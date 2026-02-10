@@ -1,14 +1,14 @@
-const sendMail = document.querySelector('.send-mail');
+// const sendMail = document.querySelector('.send-mail');
 
-sendMail.addEventListener('click', function(e) {
-	e.preventDefault
-	// console.log('hi')
-	alert('Thank you for reaching out')
-})
-AOS.init({
- 	duration: 800,
- 	easing: 'slide'
- });
+// sendMail.addEventListener('click', function(e) {
+// 	e.preventDefault
+// 	// console.log('hi')
+// 	alert('Thank you for reaching out')
+// })
+// AOS.init({
+//  	duration: 800,
+//  	easing: 'slide'
+//  });
 
 (function($) {
 
